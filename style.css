@@ -130,7 +130,7 @@ input[type="search"]::-webkit-search-results-decoration {
 /* fonts */
 @font-face {
   font-family: "font-name";
-  src: url("../fonts/font-name.woff2") format("woff2");
+  src: url("./fonts/font-name.woff2") format("woff2");
   font-display: swap;
   font-weight: 500;
   font-style: normal;
@@ -148,8 +148,8 @@ input[type="search"]::-webkit-search-results-decoration {
 /*Реальные настройки*/
 @font-face {
   font-family: "HelveticaNeue";
-  src: url("../fonts/HelveticaNeue-Bold.woff2") format("woff2"),
-    url("../fonts/HelveticaNeue-Bold.woff") format("woff");
+  src: url("./fonts/HelveticaNeue-Bold.woff2") format("woff2"),
+    url("./fonts/HelveticaNeue-Bold.woff") format("woff");
   font-display: swap;
   font-weight: 700;
   font-style: normal;
@@ -157,8 +157,8 @@ input[type="search"]::-webkit-search-results-decoration {
 
 @font-face {
   font-family: "PlayfairDisplay";
-  src: url("../fonts/PlayfairDisplay-Regular.woff2") format("woff2"),
-    url("../fonts/PlayfairDisplay-Regular.woff") format("woff");
+  src: url("./fonts/PlayfairDisplay-Regular.woff2") format("woff2"),
+    url("./fonts/PlayfairDisplay-Regular.woff") format("woff");
   font-display: swap;
   font-weight: 400;
   font-style: normal;
@@ -167,8 +167,8 @@ input[type="search"]::-webkit-search-results-decoration {
 /*Пустой шаблон*/
 @font-face {
   font-family: "SFCompact";
-  src: url("../fonts/SFCompactText-Light.woff2") format("woff2"),
-    url("../fonts/SFCompactText-Light.woff") format("woff");
+  src: url("./fonts/SFCompactText-Light.woff2") format("woff2"),
+    url("./fonts/SFCompactText-Light.woff") format("woff");
   font-display: swap;
   font-weight: 300;
   font-style: normal;
@@ -176,8 +176,8 @@ input[type="search"]::-webkit-search-results-decoration {
 
 @font-face {
   font-family: "SFCompact";
-  src: url("../fonts/SFCompactText-Regular.woff2") format("woff2"),
-    url("../fonts/SFCompactText-Regular.woff") format("woff");
+  src: url("./fonts/SFCompactText-Regular.woff2") format("woff2"),
+    url("./fonts/SFCompactText-Regular.woff") format("woff");
   font-display: swap;
   font-weight: 400;
   font-style: normal;
@@ -185,8 +185,8 @@ input[type="search"]::-webkit-search-results-decoration {
 
 @font-face {
   font-family: "SFProDisplay";
-  src: url("../fonts/SFProDisplay-Heavy.woff2") format("woff2"),
-    url("../fonts/SFProDisplay-Heavy.woff") format("woff");
+  src: url("./fonts/SFProDisplay-Heavy.woff2") format("woff2"),
+    url("./fonts/SFProDisplay-Heavy.woff") format("woff");
   font-display: swap;
   font-weight: 800;
   font-style: normal;
@@ -194,8 +194,8 @@ input[type="search"]::-webkit-search-results-decoration {
 
 @font-face {
   font-family: "SFProDisplay";
-  src: url("../fonts/SFProDisplay-Bold.woff2") format("woff2"),
-    url("../fonts/SFProDisplay-Bold.woff") format("woff");
+  src: url("./fonts/SFProDisplay-Bold.woff2") format("woff2"),
+    url("./fonts/SFProDisplay-Bold.woff") format("woff");
   font-display: swap;
   font-weight: 700;
   font-style: normal;
@@ -203,8 +203,8 @@ input[type="search"]::-webkit-search-results-decoration {
 
 @font-face {
   font-family: "SFProDisplay";
-  src: url("../fonts/SFProDisplay-Medium.woff2") format("woff2"),
-    url("../fonts/SFProDisplay-Medium.woff") format("woff");
+  src: url("./fonts/SFProDisplay-Medium.woff2") format("woff2"),
+    url("./fonts/SFProDisplay-Medium.woff") format("woff");
   font-display: swap;
   font-weight: 500;
   font-style: normal;
@@ -212,8 +212,8 @@ input[type="search"]::-webkit-search-results-decoration {
 
 @font-face {
   font-family: "SFProDisplay";
-  src: url("../fonts/SFProDisplay-Regular.woff2") format("woff2"),
-    url("../fonts/SFProDisplay-Regular.woff") format("woff");
+  src: url("./fonts/SFProDisplay-Regular.woff2") format("woff2"),
+    url("./fonts/SFProDisplay-Regular.woff") format("woff");
   font-display: swap;
   font-weight: 400;
   font-style: normal;
@@ -221,8 +221,8 @@ input[type="search"]::-webkit-search-results-decoration {
 
 @font-face {
   font-family: "SFProText";
-  src: url("../fonts/SFProText-Regular.woff2") format("woff2"),
-    url("../fonts/SFProText-Regular.woff") format("woff");
+  src: url("./fonts/SFProText-Regular.woff2") format("woff2"),
+    url("./fonts/SFProText-Regular.woff") format("woff");
   font-display: swap;
   font-weight: 400;
   font-style: normal;
@@ -263,13 +263,13 @@ input[type="search"]::-webkit-search-results-decoration {
 }
 
 .social__link--fb {
-  background-image: url("../img/fb.svg");
+  background-image: url("./img/fb.svg");
   width: 11px;
   height: 20px;
 }
 
 .social__link--tw {
-  background-image: url("../img/tw.svg");
+  background-image: url("./img/tw.svg");
   width: 20px;
   height: 17px;
 }
@@ -288,7 +288,7 @@ input[type="search"]::-webkit-search-results-decoration {
 .first {
   height: 100vh;
   min-height: 660px;
-  background-image: url("../img/first-bg.jpg");
+  background-image: url("./img/first-bg.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -368,7 +368,7 @@ input[type="search"]::-webkit-search-results-decoration {
 .search-form__button {
   width: 18px;
   height: 18px;
-  background-image: url("../img/search.svg");
+  background-image: url("./img/search.svg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -522,7 +522,7 @@ input[type="search"]::-webkit-search-results-decoration {
 
 /* featured */
 .featured {
-  background-image: url("../img/featured.jpg");
+  background-image: url("./img/featured.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -736,20 +736,20 @@ input[type="search"]::-webkit-search-results-decoration {
 }
 
 .slide-1 {
-  background-image: url("../img/featured.jpg");
+  background-image: url("./img/featured.jpg");
   background-size: cover;
 }
 
 .slide-2 {
-  background-image: url("../img/videos-slider-2.jpeg");
+  background-image: url("./img/videos-slider-2.jpeg");
 }
 
 .slide-3 {
-  background-image: url("../img/videos-slider-3.jpeg");
+  background-image: url("./img/videos-slider-3.jpeg");
 }
 
 .slide-4 {
-  background-image: url("../img/videos-slider-4.jpeg");
+  background-image: url("./img/videos-slider-4.jpeg");
 }
 
 .slide-play {
@@ -758,7 +758,7 @@ input[type="search"]::-webkit-search-results-decoration {
   top: 40px;
   width: 112px;
   height: 112px;
-  background-image: url("../img/video-play.svg");
+  background-image: url("./img/video-play.svg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -783,7 +783,7 @@ input[type="search"]::-webkit-search-results-decoration {
   position: relative;
   --newsletter-gap: 133px;
   border-radius: 8px;
-  background-image: url("../img/newsletter-cover.jpg");
+  background-image: url("./img/newsletter-cover.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-repeat: center;
@@ -930,7 +930,7 @@ input[type="search"]::-webkit-search-results-decoration {
 }
 
 .insp__play {
-  background-image: url("../img/play.svg");
+  background-image: url("./img/play.svg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -967,31 +967,31 @@ input[type="search"]::-webkit-search-results-decoration {
 }
 
 .insp__item--1 {
-  background-image: url("../img/insp-1.jpg");
+  background-image: url("./img/insp-1.jpg");
 }
 
 .insp__item--2 {
-  background-image: url("../img/insp-2.jpg");
+  background-image: url("./img/insp-2.jpg");
 }
 
 .insp__item--3 {
-  background-image: url("../img/insp-3.jpg");
+  background-image: url("./img/insp-3.jpg");
 }
 
 .insp__item--4 {
-  background-image: url("../img/insp-4.jpg");
+  background-image: url("./img/insp-4.jpg");
 }
 
 .insp__item--5 {
-  background-image: url("../img/insp-5.jpg");
+  background-image: url("./img/insp-5.jpg");
 }
 
 .insp__item--6 {
-  background-image: url("../img/insp-6.jpg");
+  background-image: url("./img/insp-6.jpg");
 }
 
 .insp__item--7 {
-  background-image: url("../img/insp-7.jpg");
+  background-image: url("./img/insp-7.jpg");
 }
 
 /*footer*/
@@ -1044,7 +1044,7 @@ input[type="search"]::-webkit-search-results-decoration {
   border: 1px solid #e4e4e4;
   border-radius: 8px;
   padding-left: 31px;
-  background-image: url("../img/user.svg");
+  background-image: url("./img/user.svg");
   /* Используем calc чтобы вычесть padding */
   background-position: calc(100% - 31px) center;
   background-repeat: no-repeat;
